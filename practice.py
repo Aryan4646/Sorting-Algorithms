@@ -42,16 +42,16 @@
 # print(f"{n} reverse is : {s[::-1]}")
 
 #  Mathematical Approach
-def s(n):
-    n2 = 0
-    while n > 0:
-        p = n % 10
-        n //= 10
-        n2 = n2*10 + p
-    return n2
-
-n = int(input("Enter the number you want to reverse : "))
-print(f"{n} reverse is : {s(n)}")
+# def s(n):
+#     n2 = 0
+#     while n > 0:
+#         p = n % 10
+#         n //= 10
+#         n2 = n2*10 + p
+#     return n2
+#
+# n = int(input("Enter the number you want to reverse : "))
+# print(f"{n} reverse is : {s(n)}")
 
 # Count Digits in a Number
 # n = int(input("Enter the number: "))
@@ -70,3 +70,18 @@ print(f"{n} reverse is : {s(n)}")
 #
 # print(f"{n} has {count(n)} digits.")
 
+# checking if a number is Palindrome using this function.
+def s(n):
+    n2 = 0
+    while n > 0:
+        p = n % 10
+        n //= 10
+        n2 = n2*10 + p
+    return n2
+
+n = int(input("Enter the number you want to check palindrome : "))
+n2 = s(n)
+if n == n2:
+    print(f"Yes {n} is palindrome i.e.: {n2}")
+else:
+    print(f"oho number {n} and {n2} are not palindrome")
