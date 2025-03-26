@@ -1,0 +1,62 @@
+# Write a function to check if a number is even or odd.
+# def num(n):
+#     if n % 2 == 0:
+#         return True
+#     else:
+#         return False
+# n = int(input("Enter the number: "))
+#
+# if num(n) == True:
+#     print(f"{n} is even.")
+# else:
+#     print(f"{n} is odd.")
+
+#  Write a function that takes two numbers and returns the larger one.
+# def max_of_two(n1,n2):
+#     if n1 < n2:
+#         return True
+#     else:
+#         return False
+# n1 = int(input("Enter the first number: "))
+# n2 = int(input("Enter the second number: "))
+#
+# if max_of_two(n1, n2) == True:
+#     print(f"Larger number b/w {n1} & {n2} : {n2}")
+# else:
+#     print(f"Larger number b/w {n1} & {n2} : {n1}")
+
+# Write a function to calculate the sum of the first N natural numbers.
+# def sum(n):
+#     s = (n*(n+1))/2
+#     return s
+# n = int(input("Enter the number upto which you want the sum : "))
+#
+# print(f"The sum of first {n} is {sum(n)}")
+
+#  Reverse a Number
+
+# n = int(input("Enter the number you want to reverse : "))
+#
+# s = str(n)
+#
+# print(f"{n} reverse is : {s[::-1]}")
+
+#  Mathematical Approach
+
+# Count Digits in a Number
+# n = int(input("Enter the number: "))
+# s = str(n)
+#
+# print(f"{n} has {len(s)} digits.")
+
+# Mathematical approach
+# def count(n):
+#     c = 0
+#     while n > 0:
+#             n //= 10
+#             c += 1
+#     return c
+# n = int(input("Enter the number: "))
+#
+# print(f"{n} has {count(n)} digits.")
+
