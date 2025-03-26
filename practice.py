@@ -102,7 +102,7 @@
 # product of digits of a number
 
 def s(n):
-    pro = 0
+    pro = 1
     while n > 0:
         p = n % 10
         n //= 10
