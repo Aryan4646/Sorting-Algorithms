@@ -87,14 +87,16 @@
 #     print(f"oho number {n} and {n2} are not palindrome")
 
 # sum of the digits of a given number.
-def s(n):
-    sum = 0
-    while n > 0:
-        p = n % 10
-        n //= 10
-        sum += p
-    return sum
+# def s(n):
+#     sum = 0
+#     while n > 0:
+#         p = n % 10
+#         n //= 10
+#         sum += p
+#     return sum
+#
+# n = int(input("Enter the number whose sum of digit you want : "))
+#
+# print(f"The sum of {n} digits : {s(n)}")
 
-n = int(input("Enter the number whose sum of digit you want : "))
-
-print(f"The sum of {n} digits : {s(n)}")
+# product of digits of a number 
