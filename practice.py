@@ -115,13 +115,13 @@
 # Count the number of even and odd digits in a number.
 
 def s(n):
-#     pro = 1
-#     while n > 0:
-#         p = n % 10
-#         n //= 10
-#         pro *= p
-#     return pro
-#
-# n = int(input("Enter the number whose product of digit you want : "))
-#
-# print(f"The product of {n} digits : {s(n)}")
+    pro = 1
+    while n > 0:
+        p = n % 10
+        n //= 10
+        pro *= p
+    return pro
+
+n = int(input("Enter the number whose product of digit you want : "))
+
+print(f"The product of {n} digits : {s(n)}")
