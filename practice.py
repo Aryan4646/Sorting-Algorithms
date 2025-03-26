@@ -96,3 +96,5 @@ def s(n):
     return sum
 
 n = int(input("Enter the number whose sum of digit you want : "))
+
+print(f"The sum of {n} digits ")
