@@ -102,13 +102,13 @@
 # product of digits of a number
 
 def s(n):
-#     sum = 0
-#     while n > 0:
-#         p = n % 10
-#         n //= 10
-#         sum += p
-#     return sum
-#
-# n = int(input("Enter the number whose sum of digit you want : "))
-#
-# print(f"The sum of {n} digits : {s(n)}")
+    sum = 0
+    while n > 0:
+        p = n % 10
+        n //= 10
+        sum += p
+    return sum
+
+n = int(input("Enter the number whose sum of digit you want : "))
+
+print(f"The sum of {n} digits : {s(n)}")
