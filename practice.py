@@ -107,7 +107,7 @@ def s(n):
         p = n % 10
         n //= 10
         pro *= p
-    return sum
+    return pro
 
 n = int(input("Enter the number whose product of digit you want : "))
 
