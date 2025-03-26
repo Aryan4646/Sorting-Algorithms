@@ -95,4 +95,4 @@ def s(n):
         n2 = n2*10 + p
     return n2
 
-n = int(input("Enter the number : "))
+n = int(input("Enter the number whose sum of digit you want : "))
