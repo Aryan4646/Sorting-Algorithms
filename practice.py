@@ -88,11 +88,11 @@
 
 # sum of the digits of a given number.
 def s(n):
-    n2 = 0
+    sum = 0
     while n > 0:
         p = n % 10
         n //= 10
-        n2 = n2*10 + p
+        sum += p
     return n2
 
 n = int(input("Enter the number whose sum of digit you want : "))
