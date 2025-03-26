@@ -126,6 +126,6 @@ def s(n):
             odd += 1
     return odd
 
-n = int(input("Enter the number whose number of odd and ven you want to find : "))
+n = int(input("Enter the number whose number of odd and even you want to find : "))
 
-print(f"The product of {n} digits : {s(n)}")
+print(f"number of odd and even in {n} are {o(n)} and {e(n)} respectively.")
