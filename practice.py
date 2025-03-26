@@ -100,7 +100,6 @@
 # print(f"The sum of {n} digits : {s(n)}")
 
 # product of digits of a number
-
 def s(n):
     pro = 1
     while n > 0:
@@ -111,4 +110,4 @@ def s(n):
 
 n = int(input("Enter the number whose product of digit you want : "))
 
-print(f"The sum of {n} digits : {s(n)}")
+print(f"The product of {n} digits : {s(n)}")
