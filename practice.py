@@ -114,17 +114,24 @@
 
 # Count the number of even and odd digits in a number.
 
-def s(n):
+def o(n):
     odd = 0
+    while n > 0:
+        p = n % 10
+        n //= 10
+        if p % 2 == 0:
+            pass
+        else:
+            odd += 1
+    return odd
+def e(n):
     even = 0
     while n > 0:
         p = n % 10
         n //= 10
         if p % 2 == 0:
             even += 1
-        else:
-            odd += 1
-    return odd
+    return even
 
 n = int(input("Enter the number whose number of odd and even you want to find : "))
 
