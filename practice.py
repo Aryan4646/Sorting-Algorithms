@@ -140,3 +140,5 @@
 # n = int(input("Enter the number whose factorial you would like to calculate: "))
 # m = 1
 # print(f"Factorial of {n} is {fac(n,m)}")
+
+# Print numbers from n to 1 using recursion
