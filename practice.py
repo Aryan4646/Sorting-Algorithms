@@ -156,16 +156,26 @@
 # rec(n)
 
 # Print numbers from 1 to n  using recursion
-def rec(n,i):
+# def rec(n,i):
+#     if n >= 1:
+#         print(i)
+#         i += 1
+#         rec(n-1, i)
+#     else:
+#         pass
+# n = int(input("Enter the number: "))
+# i = 1
+# print(f"Number is {n} and the numbers are as follows:")
+# rec(n, i)
+
+#  Another approach without i  Print numbers from 1 to n  using recursion
+
+def rec(n):
     if n >= 1:
-        print(i)
-        i += 1
-        rec(n-1, i)
-    else:
-        pass
+        print(n
+
 n = int(input("Enter the number: "))
-i = 1
 print(f"Number is {n} and the numbers are as follows:")
-rec(n, i)
+rec(n)
 
 
