@@ -148,7 +148,7 @@ def rec(n):
         print(n)
     else:
         print(n)
-        return rec(n-1)
+        rec(n-1)
 
 n = int(input("Enter the number: "))
 
