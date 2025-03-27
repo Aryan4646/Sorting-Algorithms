@@ -155,3 +155,15 @@
 # print(f"Number is {n} and the numbers are as follows:")
 # rec(n)
 
+# Print numbers from 1 to n  using recursion
+def rec(n):
+    if n >= 1:
+        print(n)
+        rec(n-1)
+    else:
+        pass
+n = int(input("Enter the number: "))
+print(f"Number is {n} and the numbers are as follows:")
+rec(n)
+
+
