@@ -131,12 +131,12 @@
 # print(f"Number of even and odd digits in {n} are {even_count} and {odd_count}, respectively.")
 
 # Wap a function to calculate factorial of a numbr using recursion
-def fac(n):
-    if n == 1 :
-        return mul
+def fac(n,m):
+    if n == 1:
+        return m
     else:
-        fac(n-1)
+        return fac(n-1, m*n)
 
 n = int(input("Enter the number whose factorial you would like to calculate: "))
-
-print(f"Factorial of {n} is {fac(n)}")
+m = 1
+print(f"Factorial of {n} is {fac(n,m)}")
