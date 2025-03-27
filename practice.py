@@ -170,15 +170,23 @@
 
 #  Another approach without i  Print numbers from 1 to n  using recursion
 
-def rec(n):
+# def rec(n):
+#     if n >= 1:
+#         rec(n-1)
+#         print(n)
+#
+#     else:
+#         pass
+# n = int(input("Enter the number: "))
+# print(f"Number is {n} and the numbers are as follows:")
+# rec(n)
+
+# Write a recursive function that takes an integer n and returns the sum of all numbers from 1 to n.
+def rec(s,n):
     if n >= 1:
-        rec(n-1)
-        print(n)
-
+        return rec(s+n, n-1)
     else:
-        pass
-n = int(input("Enter the number: "))
-print(f"Number is {n} and the numbers are as follows:")
-rec(n)
-
-
+        return s
+n = int(input("Enter the number : "))
+s = 0
+print(f"The sum of first {n} numbers is: {rec(s,n)}")
