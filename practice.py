@@ -130,4 +130,13 @@
 # even_count, odd_count = count_even_odd(n)
 # print(f"Number of even and odd digits in {n} are {even_count} and {odd_count}, respectively.")
 
-# Wap a function to
+# Wap a function to calculate factorial of a numbr using recursion
+def fac(n):
+    if n == 1 :
+        return mul
+    else:
+        fac(n-1)
+
+n = int(input("Enter the number whose factorial you would like to calculate: "))
+
+print(f"Factorial of {n} is {fac(n)}")
