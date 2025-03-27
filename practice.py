@@ -135,7 +135,7 @@ def fac(n,m):
     if n == 1:
         return m
     else:
-        return fac(n-1, m*n)
+        return fac(n-1, m)
 
 n = int(input("Enter the number whose factorial you would like to calculate: "))
 m = 1
