@@ -113,19 +113,21 @@
 # print(f"The product of {n} digits : {s(n)}")
 
 # Count the number of even and odd digits in a number.
-def count_even_odd(n):
-    even = 0
-    odd = 0
-    while n > 0:
-        p = n % 10
-        n //= 10
-        if p % 2 == 0:
-            even += 1
-        else:
-            odd += 1
-    return even, odd
+# def count_even_odd(n):
+#     even = 0
+#     odd = 0
+#     while n > 0:
+#         p = n % 10
+#         n //= 10
+#         if p % 2 == 0:
+#             even += 1
+#         else:
+#             odd += 1
+#     return even, odd
+#
+# n = int(input("Enter the number whose number of odd and even digits you want to find: "))
+#
+# even_count, odd_count = count_even_odd(n)
+# print(f"Number of even and odd digits in {n} are {even_count} and {odd_count}, respectively.")
 
-n = int(input("Enter the number whose number of odd and even digits you want to find: "))
-
-even_count, odd_count = count_even_odd(n)
-print(f"Number of even and odd digits in {n} are {even_count} and {odd_count}, respectively.")
+# Wap a function to
