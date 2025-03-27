@@ -172,8 +172,11 @@
 
 def rec(n):
     if n >= 1:
-        print(n
+        rec(n-1)
+        print(n)
 
+    else:
+        pass
 n = int(input("Enter the number: "))
 print(f"Number is {n} and the numbers are as follows:")
 rec(n)
