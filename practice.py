@@ -143,14 +143,15 @@
 
 # Print numbers from n to 1 using recursion
 
-def rec(n):
-    if n == 1:
-        print(n)
-    else:
-        print(n)
-        rec(n-1)
+# def rec(n):
+#     if n == 1:
+#         print(n)
+#     else:
+#         print(n)
+#         rec(n-1)
+#
+# n = int(input("Enter the number: "))
+#
+# print(f"Number is {n} and the numbers are as follows:")
+# rec(n)
 
-n = int(input("Enter the number: "))
-
-print(f"Number is {n} and the numbers are as follows:")
-rec(n)
