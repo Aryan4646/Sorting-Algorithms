@@ -182,11 +182,25 @@
 # rec(n)
 
 # Write a recursive function that takes an integer n and returns the sum of all numbers from 1 to n.
-def rec(s,n):
-    if n >= 1:
-        return rec(s+n, n-1)
-    else:
-        return s
-n = int(input("Enter the number : "))
-s = 0
-print(f"The sum of first {n} numbers is: {rec(s,n)}")
+# def rec(s,n):
+#     if n >= 1:
+#         return rec(s+n, n-1)
+#     else:
+#         return s
+# n = int(input("Enter the number : "))
+# s = 0
+# print(f"The sum of first {n} numbers is: {rec(s,n)}")
+
+# try solving it without passing s as an argument and just using n
+# def rec(n):
+#     if n >= 0:
+#         rec(n-1)
+#         n += n
+#         return n
+#     else:
+#         pass
+# n = int(input("Enter the number : "))
+# print(f"The sum of first {n} numbers is: {rec(n)}")
+
+# Write a function to find the maximum of three numbers.
+
