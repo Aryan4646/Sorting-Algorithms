@@ -218,14 +218,14 @@
 # print(f"The largest number between {a},{b} & {c} is : {max(a,b,c)}")
 
 # Write a function to calculate the factorial of a number (without recursion).
-def fac(n):
-    z = 1
-    while n >= 1:
-        z *= n
-        n -= 1
-    else:
-        return z
-
-n = int(input("Enter the number: "))
-
-print(f"The factorial of number {n} is {fac(n)}")
+# def fac(n):
+#     z = 1
+#     while n >= 1:
+#         z *= n
+#         n -= 1
+#     else:
+#         return z
+#
+# n = int(input("Enter the number: "))
+#
+# print(f"The factorial of number {n} is {fac(n)}")
