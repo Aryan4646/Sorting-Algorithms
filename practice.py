@@ -203,8 +203,29 @@
 # print(f"The sum of first {n} numbers is: {rec(n)}")
 
 # Write a function to find the maximum of three numbers.
+# def max(a,b,c):
+#     if a >= b and a >= c:
+#         return a
+#     elif b >= a and b >= c:
+#         return b
+#     else:
+#         return c
+#
+# a = int(input("Enter the first number : "))
+# b = int(input("Enter the second number: "))
+# c = int(input("Enter the third number: "))
+#
+# print(f"The largest number between {a},{b} & {c} is : {max(a,b,c)}")
 
-a = int(input("Enter the first number : "))
-b = int(input("Enter the second number: "))
-c = int(input("Enter the third number: "))
+# Write a function to calculate the factorial of a number (without recursion).
+def fac(n):
+    z = 1
+    while n >= 1:
+        z *= n
+        n -= 1
+    else:
+        return z
 
+n = int(input("Enter the number: "))
+
+print(f"The factorial of number {n} is {fac(n)}")
