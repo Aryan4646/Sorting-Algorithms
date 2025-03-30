@@ -231,23 +231,26 @@
 # print(f"The factorial of number {n} is {fac(n)}")
 
 # Write a function that checks if a number is prime.
-def prime(n):
-    count = 1
-    i = 2
-    while i <= n:
-        if n % i == 0:
-            count += 1
-            i += 1
-        else:
-            i += 1
-    if count == 2:
-        return "Yes", n
-    else:
-        return "No", n
+# def prime(n):
+#     count = 1
+#     i = 2
+#     while i <= n:
+#         if n % i == 0:
+#             count += 1
+#             i += 1
+#         else:
+#             i += 1
+#     if count == 2:
+#         return "Yes", n
+#     else:
+#         return "No", n
+#
+# n = int(input("Enter the number: "))
+# y, p = prime(n)
+# if y == "Yes":
+#     print(f"{y} number {p} is prime ")
+# else:
+#     print(f"{y} number {p} is not prime ")
 
-n = int(input("Enter the number: "))
-y, p = prime(n)
-if y == "Yes":
-    print(f"{y} number {p} is prime ")
-else:
-    print(f"{y} number {p} is not prime ")
+# Write a function that returns the sum of all digits in a number.
+
