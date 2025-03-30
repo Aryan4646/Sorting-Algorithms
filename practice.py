@@ -306,9 +306,22 @@
 
 # Use a lambda function to sort a list of tuples based on the second element.
 
-import random
+# import random
+#
+# data = [(random.randint(1, 10), random.randint(1, 10)) for i in range(4)]
+# print(data)
+# sorted_list = sorted(data, key=lambda x: x[1])
+# print(sorted_list)
 
-data = [(random.randint(1, 10), random.randint(1, 10)) for i in range(4)]
-print(data)
-sorted_list = sorted(data, key=lambda x: x[1])
-print(sorted_list)
+# Implement a recursive function to find the sum of digits of a number.
+# def rec(n, s=0):
+#     if n <= 0:
+#         return s
+#     else:
+#         s += n % 10
+#         return rec(n//10, s)
+#
+# n = int(input("Enter the number: "))
+#
+# print(f"The sum of digits of {n} is {rec(n)}")
+
