@@ -254,12 +254,18 @@
 
 # Write a function that returns the sum of all digits in a number.
 def s(n):
-    sum = 0
+    total = 0
     while n > 0:
         p = n % 10
         n //= 10
-        sum += p
-    return sum
+        total += p
+    return total
 n = int(input("Enter the number:"))
 
 print(f"The sum of all digits in number {n} is {s(n)}")
+
+cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
+git status  # Check for changes
+git add .  # Stage all changes
+git commit -m "Updated code in practice.py"  # Commit with a message
+git push origin main  # Push to GitHub (use 'master' if your branch is master)
