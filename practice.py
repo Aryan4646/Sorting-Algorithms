@@ -264,6 +264,8 @@ n = int(input("Enter the number:"))
 
 print(f"The sum of all digits in number {n} is {s(n)}")
 
+Implement a recursive function to calculate factorial.
+
 cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
 git status  # Check for changes
 git add .  # Stage all changes
