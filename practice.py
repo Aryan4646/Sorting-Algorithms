@@ -300,6 +300,15 @@
 
 # Write a function that returns a lambda function to calculate the square of a number.
 
-n = int(input("Enter the number: "))
-s = lambda n: n ** 2
-print(f"The square of {n} is :{s(n)}")
+# n = int(input("Enter the number: "))
+# s = lambda n: n ** 2
+# print(f"The square of {n} is : {s(n)}")
+
+# Use a lambda function to sort a list of tuples based on the second element.
+
+import random
+
+data = [(random.randint(1, 10), random.randint(1, 10)) for i in range(4)]
+print(data)
+sorted_list = sorted(data, key=lambda x: x[1])
+print(sorted_list)
