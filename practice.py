@@ -288,3 +288,11 @@
 # print(f"The reverse of number {n} is {rec(n)}")
 
 # Implement a recursive function to print numbers from 1 to N.
+def rec(n, i=1):
+    if i <= n:
+        print(n)
+        rec(n-1)
+
+n = int(input("Enter the number: "))
+
+print(f"The number has printed from 1 upto {n} as above: {rec(n)}")
