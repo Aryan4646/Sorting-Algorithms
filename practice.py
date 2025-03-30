@@ -288,13 +288,14 @@
 # print(f"The reverse of number {n} is {rec(n)}")
 
 # Implement a recursive function to print numbers from 1 to N.
-def rec(n, i=1):
-    if i <= n:
-        print(i)
-        rec(n,i+1)
+# def rec(n, i=1):
+#     if i <= n:
+#         print(i)
+#         rec(n,i+1)
+#
+# n = int(input("Enter the number: "))
+#
+# print(f"The number has printed from 1 upto {n} as follows:")
+# rec(n)
 
-n = int(input("Enter the number: "))
-
-print(f"The number has printed from 1 upto {n} as follows:")
-rec(n)
-
+# Implement a recursive function to compute the nth Fibonacci number.
