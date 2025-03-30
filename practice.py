@@ -286,3 +286,5 @@
 #
 # n = int(input("Enter the number: "))
 # print(f"The reverse of number {n} is {rec(n)}")
+
+# Implement a recursive function to print numbers from 1 to N.
