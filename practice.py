@@ -265,9 +265,10 @@
 # print(f"The sum of all digits in number {n} is {s(n)}")
 
 # Implement a recursive function to calculate factorial.
+def fac(n, mul):
 
-cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
-git status  # Check for changes
-git add .  # Stage all changes
-git commit -m "Updated code in practice.py"  # Commit with a message
-git push origin main  # Push to GitHub (use 'master' if your branch is master)
+   
+
+n = int(input("Enter the number: "))
+mul = 1
+print(f"The factorial of number {n} is {fac(n, mul)}")
