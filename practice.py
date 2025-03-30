@@ -265,10 +265,13 @@
 # print(f"The sum of all digits in number {n} is {s(n)}")
 
 # Implement a recursive function to calculate factorial.
-def fac(n, mul):
+def fac(n,mul):
+    while n > 0:
+        mul *= fac(n-1,mul)
+    return mul
 
-   
+
 
 n = int(input("Enter the number: "))
 mul = 1
-print(f"The factorial of number {n} is {fac(n, mul)}")
+print(f"The factorial of number {n} is {fac(n,mul)}")
