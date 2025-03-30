@@ -325,3 +325,14 @@
 #
 # print(f"The sum of digits of {n} is {rec(n)}")
 
+# Implement a recursive function to check if a string is a palindrome.
+def rec(n):
+    if 
+
+s = input("Enter the string : ")
+n = int(s)
+y,r = rec(n)
+if y == "Yes"
+    print(f"The string {s} is palindrome ")
+else:
+    print(f"The string {s} is not palindrome.")
