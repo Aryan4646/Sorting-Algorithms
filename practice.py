@@ -277,12 +277,12 @@
 
 # Implement a recursive function to reverse a number.
 
-def rec(n, rev=0):
-    if n <= 0:
-        return rev
-    else:
-        rev = rev * 10 + n % 10
-        return rec(n // 10, rev)
-
-n = int(input("Enter the number: "))
-print(f"The reverse of number {n} is {rec(n)}")
+# def rec(n, rev=0):
+#     if n <= 0:
+#         return rev
+#     else:
+#         rev = rev * 10 + n % 10
+#         return rec(n // 10, rev)
+#
+# n = int(input("Enter the number: "))
+# print(f"The reverse of number {n} is {rec(n)}")
