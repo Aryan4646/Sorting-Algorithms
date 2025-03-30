@@ -254,3 +254,4 @@
 
 # Write a function that returns the sum of all digits in a number.
 
+n = int(input(""))
