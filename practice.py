@@ -253,5 +253,13 @@
 #     print(f"{y} number {p} is not prime ")
 
 # Write a function that returns the sum of all digits in a number.
+def s(n):
+    sum = 0
+    while n > 0:
+        p = n % 10
+        n //= 10
+        sum += p
+    return sum
+n = int(input("Enter the number:"))
 
-n = int(input(""))
+print(f"The sum of all digits in number {n} is {s(n)}")
