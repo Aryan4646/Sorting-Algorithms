@@ -230,4 +230,8 @@
 #
 # print(f"The factorial of number {n} is {fac(n)}")
 
-# 
+# Write a function that checks if a number is prime.
+
+n = int(input("Enter the number: "))
+
+if 
