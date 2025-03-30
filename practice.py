@@ -253,16 +253,16 @@
 #     print(f"{y} number {p} is not prime ")
 
 # Write a function that returns the sum of all digits in a number.
-def s(n):
-    total = 0
-    while n > 0:
-        p = n % 10
-        n //= 10
-        total += p
-    return total
-n = int(input("Enter the number:"))
-
-print(f"The sum of all digits in number {n} is {s(n)}")
+# def s(n):
+#     total = 0
+#     while n > 0:
+#         p = n % 10
+#         n //= 10
+#         total += p
+#     return total
+# n = int(input("Enter the number:"))
+#
+# print(f"The sum of all digits in number {n} is {s(n)}")
 
 # Implement a recursive function to calculate factorial.
 
