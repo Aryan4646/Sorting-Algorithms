@@ -266,12 +266,9 @@
 
 # Implement a recursive function to calculate factorial.
 def fac(n,mul):
-    while n > 0:
-        mul *= fac(n-1,mul)
+    while n > 1:
+        return fac(n-1,mul*n)
     return mul
-
-
-
 n = int(input("Enter the number: "))
 mul = 1
 print(f"The factorial of number {n} is {fac(n,mul)}")
