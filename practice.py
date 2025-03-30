@@ -295,4 +295,5 @@ def rec(n, i=1):
 
 n = int(input("Enter the number: "))
 
-print(f"The number has printed from 1 upto {n} as above: {rec(n)}")
+print(f"The number has printed from 1 upto {n} as follows:")
+{rec(n)}
