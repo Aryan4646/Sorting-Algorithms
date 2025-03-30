@@ -298,9 +298,8 @@
 # print(f"The number has printed from 1 upto {n} as follows:")
 # rec(n)
 
-# Implement a recursive function to compute the nth Fibonacci number.
-def rec(n):
-    if n
-n = int(input("Enter the number:"))
+# Write a function that returns a lambda function to calculate the square of a number.
 
-print(f"The {n}th number of the fibonacci sequence is : {rec(n)}")
+n = int(input("Enter the number: "))
+s = lambda n: n ** 2
+print(f"The square of {n} is :{s(n)}")
