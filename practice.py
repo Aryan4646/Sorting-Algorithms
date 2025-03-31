@@ -372,15 +372,29 @@
 # Create a list of mixed data types (int, string, float, bool).
 # Change the third element of a list to "Python" and print the list.
 
-li = [18, "hello", 3.13, True, "Hey", 6, 3.14]
-print("Original List: ")
-for _ in li:
-    print(_, end=" ")
-print("\n")
-li[2] = "Python"
-print("Modified list: ")
-for _ in li:
-    print(_, end=" ")
+# li = [18, "hello", 3.13, True, "Hey", 6, 3.14]
+# print("Original List: ")
+# for _ in li:
+#     print(_, end=" ")
+# print("\n")
+# li[2] = "Python"
+# print("Modified list: ")
+# for _ in li:
+#     print(_, end=" ")
+
+# Write a Python program that does the following:
+#
+# 1️⃣ Take an integer n as input (the number of elements in a list).
+# 2️⃣ Accept n integer inputs from the user and store them in a list.
+# 3️⃣ Print the list after creation.
+# 4️⃣ Replace the second element with 100.
+#     5️⃣ Add 999 to the end of the list.
+# 6️⃣ Remove the third element from the list.
+# 7️⃣ Check if 50 exists in the list and print "50 is in the list" if found, else print "50 is not in the list".
+# 8️⃣ Print the final list and its length.
+
+n = int(input("Enter the number of elements you want in the list: "))
+
 
 
 
