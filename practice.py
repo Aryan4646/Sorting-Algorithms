@@ -627,10 +627,11 @@
 # Given a string: "apple banana apple orange banana apple", create a dictionary where the keys are words, and the values are their occurrences.
 
 s = "apple banana apple orange banana apple"
-dict = {}
-for _ in s:
-    if _ not in dict:
-        u
+words = s.split()
+d = {}
+for i in words:
+    d[i] = 
+
 
 
 
