@@ -529,16 +529,34 @@
 
 # Problem 1: Write a Python program to create a set, add multiple elements to it, and remove an element.
 
-s = {1, 2, 4, 1, 5, 7, 47, 3}
-print(s)
-s.update([2, 56, 5, 3])
-print(s)
-s.remove(2)  #Here 2 is present if it was not present we would get error
-print(s)
+# s = {1, 2, 4, 1, 5, 7, 47, 3}
+# print(s)
+# s.update([2, 56, 5, 3])
+# print(s)
+# s.remove(2)  #Here 2 is present if it was not present we would get error
+# print(s)
+#
+# s.discard(8)  # With discard we will not get error irrespective we have that element in list or not
+# print(s)
 
-s.discard(8)  # With discard we will not get error irrespective we have that element in list or not
-print(s)
-
+# Set Operations
+# s1 = {1, 2, 3, 4, 5, 7, 47}
+# s2 = {2, 4, 6, 7, 5, 9}
+#
+# print(f"Set 1 is : {s1}")
+# print(f"Set 2 is : {s2}")
+# # Union  # Union display all the elements that are in either a or b
+# un = s1.union(s2)
+# print(f"Union of set 1 and set 2 is : {un}")
+# # Intersection # Intersection display the element that belong in both sets
+# inter = s1.intersection(s2)
+# print(f"Intersection of set 1 and set 2 is : {inter}")
+# # difference # Difference remove all the element that are present in another set
+# diff = s1.difference(s2)
+# print(f"Difference of set 1 and set 2 is : {diff}")
+# # symmetric difference # in a or b but not in both
+# sym = s2.symmetric_difference(s1)
+# print(f"Symmetric difference of set2  and set 1 is : {sym}")
 
 
 
