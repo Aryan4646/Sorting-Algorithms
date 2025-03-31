@@ -373,11 +373,12 @@
 # Change the third element of a list to "Python" and print the list.
 
 li = [18, "hello", 3.13, True, "Hey", 6, 3.14]
-
+print("Original List: ")
 for _ in li:
     print(_, end=" ")
 print("\n")
 li[2] = "Python"
+print("Modified list: ")
 for _ in li:
     print(_, end=" ")
 
