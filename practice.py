@@ -564,20 +564,41 @@
 # 4️⃣ Deletes one key.
 # 5️⃣ Prints all keys and values separately.
 
-d = {"name": "Xman", "Age": 26, "Email": "xman@gmail.com", "City": "London"}
-print("Original Dictionary")
-print(d.items())
-print("Added key to the dict: ")
-d["Placed"] = "No"
-print(d.items())
-d["Age"]= 28
-print("Updated dictionary: ")
-print(d)
-print("Dictionary after deletion")
-del d["City"]
-print(d)
-print("All keys:", d.keys())
-print("All values:", d.values())
+# d = {"name": "Xman", "Age": 26, "Email": "xman@gmail.com", "City": "London"}
+# print("Original Dictionary")
+# print(d.items())
+# print("Added key to the dict: ")
+# d["Placed"] = "No"
+# print(d.items())
+# d["Age"]= 28
+# print("Updated dictionary: ")
+# print(d)
+# print("Dictionary after deletion")
+# del d["City"]
+# print(d)
+# print("All keys:", d.keys())
+# print("All values:", d.values())
+
+# In Python, you can merge dictionaries in multiple ways:
+
+# ✅ Method 1: Using update()
+
+# d1 = {"name": "Alice", "age": 25}
+# d2 = {"city": "New York", "job": "Engineer"}
+#
+# d1.update(d2)  # Merges d2 into d1
+# print(d1)
+# ✅ Method 2: Using {**d1, **d2} (Python 3.5+)
+# d1 = {"name": "Alice", "age": 25}
+# d2 = {"city": "New York", "job": "Engineer"}
+#
+# merged_dict = {**d1, **d2}
+# print(merged_dict)
+
+# Create a dictionary using dictionary comprehension where the keys are numbers
+# from 1 to 10, and the values are their cubes.
+
+
 
 
 
