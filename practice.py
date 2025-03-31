@@ -394,7 +394,23 @@
 # 8️⃣ Print the final list and its length.
 
 n = int(input("Enter the number of elements you want in the list: "))
-
-
+li = []
+for i in range(n):
+    p = int(input(f"The element at {i} index is: "))
+    li.append(p)
+print("Original list: ")
+print(li, end=" ")
+li[2] = 100
+li.append(100)
+li.pop(2)
+print("\n")
+if 50 in li:
+    print("50 is the list")
+else:
+    print("50 is not in the list")
+print("Final list is : ")
+print(li, end=" ")
+print("\n")
+print(f"The length of list is: {len(li)}")
 
 
