@@ -598,7 +598,25 @@
 # Create a dictionary using dictionary comprehension where the keys are numbers
 # from 1 to 10, and the values are their cubes.
 
+# d = {x: x**3 for x in range(1, 11)}
+# print("The dictionary is as follows: ")
+# print(d)
 
+# Modify a nested dictionary:
+# Given this dictionary:
+# employee = {
+#     "John": {"age": 30, "salary": 50000},
+#     "Alice": {"age": 28, "salary": 55000},
+#     "Bob": {"age": 35, "salary": 60000}
+# }
+# Increase Bob’s salary by 10%.
+# Add a new employee "Mike" with age 26 and salary 48000.
+
+employee = {
+#     "John": {"age": 30, "salary": 50000},
+#     "Alice": {"age": 28, "salary": 55000},
+#     "Bob": {"age": 35, "salary": 60000}
+# }
 
 
 
