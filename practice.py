@@ -523,9 +523,12 @@
 # print(c3)
 
 # Given the tuple (5, 10, 15, 10, 20, 10), count the occurrences of 10 and find its index.
-t1 = (5, 10, 15, 10, 20, 10)
-print(t1.count(10))
-print(t1.index(10))
+# t1 = (5, 10, 15, 10, 20, 10)
+# print(t1.count(10))
+# print(t1.index(10))
+
+
+
 
 
 
