@@ -360,3 +360,12 @@
 l = []
 n= int(input("How many elements do you want in your list: "))
 
+for i in range(n):
+    o = int(input(f"Enter the element at index {i}: "))
+    l.append(o)
+
+print(f"The first element of list is : {l[0]}")
+print(f"The middle elements of list are : {l[1:(n-1)]}")
+print(f"The last element of list is: {l[n-1]}")
+
+
