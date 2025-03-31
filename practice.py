@@ -553,10 +553,10 @@
 # print(f"Intersection of set 1 and set 2 is : {inter}")
 # # difference # Difference remove all the element that are present in another set
 # diff = s1.difference(s2)
-# print(f"Difference of set 1 and set 2 is : {diff}")
-# # symmetric difference # in a or b but not in both
-# sym = s2.symmetric_difference(s1)
-# print(f"Symmetric difference of set2  and set 1 is : {sym}")
+print(f"Difference of set 1 and set 2 is : {diff}")
+# symmetric difference # in a or b but not in both
+sym = s2.symmetric_difference(s1)
+print(f"Symmetric difference of set2  and set 1 is : {sym}")
 
 
 
