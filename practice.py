@@ -499,8 +499,19 @@
 # Given a tuple (10, 20, 30, 40, 50), print the first and last elements.
 # 🔹 Extract and print the middle three elements using slicing.
 
-(10, 20, 30, 40, 50)
+# t1 = (10, 20, 30, 40, 50)
+# print(t1[1:4])
 
+# 🔹 Concatenate two tuples (1, 2, 3) and (4, 5, 6) and print the result.
+# 🔹 Repeat the tuple (7, 8, 9) 3 times and print it.
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+t3 = (7, 8, 9)
+
+result = t1 + t2
+print(result)
+
+print(t3 * 3)
 
 
 
