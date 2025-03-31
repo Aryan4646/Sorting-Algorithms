@@ -357,15 +357,21 @@
 
 # Create a list of 5 numbers and print the first, last, and middle elements.
 
-l = []
-n= int(input("How many elements do you want in your list: "))
+# l = []
+# n= int(input("How many elements do you want in your list: "))
+#
+# for i in range(n):
+#     o = int(input(f"Enter the element at index {i}: "))
+#     l.append(o)
+#
+# print(f"The first element of list is : {l[0]}")
+# print(f"The middle elements of list are : {l[1:(n-1)]}")
+# print(f"The last element of list is: {l[n-1]}")
 
-for i in range(n):
-    o = int(input(f"Enter the element at index {i}: "))
-    l.append(o)
-
-print(f"The first element of list is : {l[0]}")
-print(f"The middle elements of list are : {l[1:(n-1)]}")
-print(f"The last element of list is: {l[n-1]}")
+cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
+git status  # Check for changes
+git add .  # Stage all changes
+git commit -m "Updated code in practice.py"  # Commit with a message
+git push origin main  # Push to GitHub (use 'master' if your branch is master)
 
 
