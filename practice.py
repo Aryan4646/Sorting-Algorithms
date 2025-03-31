@@ -626,12 +626,12 @@
 # Count word frequency in a sentence using a dictionary.
 # Given a string: "apple banana apple orange banana apple", create a dictionary where the keys are words, and the values are their occurrences.
 
-s = "apple banana apple orange banana apple"
-words = s.split()
-d = {}
-for i in words:
-    d[i] = d.get(i, 0)+1
-print(d)
+# s = "apple banana apple orange banana apple"
+# words = s.split()
+# d = {}
+# for i in words:
+#     d[i] = d.get(i, 0)+1
+# print(d)
 
 
 
