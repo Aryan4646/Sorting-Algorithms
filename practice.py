@@ -612,16 +612,22 @@
 # Increase Bob’s salary by 10%.
 # Add a new employee "Mike" with age 26 and salary 48000.
 
-employee = {
-    "John": {"age": 30, "salary": 50000},
-    "Alice": {"age": 28, "salary": 55000},
-    "Bob": {"age": 35, "salary": 60000}
-}
-y = employee["Bob"]["salary"]
-y = y + y * 0.1
-employee["Bob"]["salary"] = y
-employee["Mike"] = {"age": 24, "salary": 48000}
-print(employee)
+# employee = {
+#     "John": {"age": 30, "salary": 50000},
+#     "Alice": {"age": 28, "salary": 55000},
+#     "Bob": {"age": 35, "salary": 60000}
+# }
+# y = employee["Bob"]["salary"]
+# y = y + y * 0.1
+# employee["Bob"]["salary"] = y
+# employee["Mike"] = {"age": 24, "salary": 48000}
+# print(employee)
+
+# Count word frequency in a sentence using a dictionary.
+# Given a string: "apple banana apple orange banana apple", create a dictionary where the keys are words, and the values are their occurrences.
+
+s = "apple banana apple orange banana apple"
+
 
 
 
