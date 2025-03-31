@@ -417,4 +417,14 @@
 # 1️⃣ Takes a list of numbers as input.
 # 2️⃣ Prints only the **even numbers** using **list comprehension**.
 
-li = int()
+n = int(input("Enter the number of elements you want in the list: "))
+li = []
+for i in range(n):
+    p = int(input(f"The element at {i} index is: "))
+    li.append(p)
+print("Original list: ")
+print(li, end=" ")
+print("\n")
+even = [x for x in li if x % 2 == 0]
+print("Even number list is : ")
+print(even, end=" ")
