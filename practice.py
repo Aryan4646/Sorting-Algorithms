@@ -462,6 +462,11 @@
 # print("Reversed list is: ")
 # print(rev, end=" ")
 # print("\n")
+#
+# Problem:
+# Take a list of numbers from the user.
+# Remove all duplicate values from the list.
+# Print the final list with only unique elements.
 
 
 
