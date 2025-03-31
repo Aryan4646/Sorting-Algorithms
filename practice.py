@@ -376,8 +376,10 @@ li = [18, "hello", 3.13, True, "Hey", 6, 3.14]
 
 for _ in li:
     print(_, end=" ")
-
+print("\n")
 li[2] = "Python"
 for _ in li:
     print(_, end=" ")
+
+
 
