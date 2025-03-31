@@ -417,6 +417,28 @@
 # 1️⃣ Takes a list of numbers as input.
 # 2️⃣ Prints only the **even numbers** using **list comprehension**.
 
+# n = int(input("Enter the number of elements you want in the list: "))
+# li = []
+# for i in range(n):
+#     p = int(input(f"The element at {i} index is: "))
+#     li.append(p)
+# print("Original list: ")
+# print(li, end=" ")
+# print("\n")
+# even = [x for x in li if x % 2 == 0]
+# print("Even number list is : ")
+# print(even, end=" ")
+
+# Write a program that:
+# Takes n elements as input to create a list.
+# Appends 100 to the list.
+# Inserts 50 at index 2.
+# Removes the last element.
+# Sorts the list in ascending order.
+# Reverses the sorted list.
+# Copies the list to a new variable.
+# Prints both lists.
+
 n = int(input("Enter the number of elements you want in the list: "))
 li = []
 for i in range(n):
@@ -425,6 +447,16 @@ for i in range(n):
 print("Original list: ")
 print(li, end=" ")
 print("\n")
-even = [x for x in li if x % 2 == 0]
-print("Even number list is : ")
-print(even, end=" ")
+li.append(100)
+li.insert(2,50)
+li.pop()
+p = [li.sort()]
+rev = p[-1::]
+print("Sorted list is: ")
+print(p, end=" ")
+print("\n")
+print("Reversed list is: ")
+print(rev, end=" ")
+print("\n")
+
+
