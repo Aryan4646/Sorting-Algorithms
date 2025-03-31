@@ -344,13 +344,19 @@
 #     print(f"The string {s} is not palindrome.")
 
 # Implement a recursive function to compute the nth Fibonacci number.
-def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
-n = int(input("Enter the number: "))
+# def fib(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fib(n-1) + fib(n-2)
+# n = int(input("Enter the number: "))
+#
+# print(f"The {n}th number in fibonacci sequence is : {fib(n)}")
 
-print(f"The {n}th number in fibonacci sequence is : {fib(n)}")
+# Create a list of 5 numbers and print the first, last, and middle elements.
+
+l = []
+n= int(input("How many elements do you want in your list: "))
+
