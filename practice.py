@@ -468,6 +468,22 @@
 # Remove all duplicate values from the list.
 # Print the final list with only unique elements.
 
+n = int(input("Enter the number of elements you want in the list: "))
+li = []
+for i in range(n):
+    p = int(input(f"The element at {i} index is: "))
+    li.append(p)
+print("Original list: ")
+print(li, end=" ")
+
+unique_li = []
+for x in li:
+    if x not in unique_li:
+        unique_li.append(x)
+li = unique_li
+
+print("\n New list: ")
+print(li, end=" ")
 
 
 
