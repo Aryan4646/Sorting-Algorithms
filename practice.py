@@ -527,11 +527,17 @@
 # print(t1.count(10))
 # print(t1.index(10))
 
+# Problem 1: Write a Python program to create a set, add multiple elements to it, and remove an element.
 
+s = {1, 2, 4, 1, 5, 7, 47, 3}
+print(s)
+s.update([2, 56, 5, 3])
+print(s)
+s.remove(2)  #Here 2 is present if it was not present we would get error
+print(s)
 
-
-
-
+s.discard(8)  # With discard we will not get error irrespective we have that element in list or not
+print(s)
 
 
 
