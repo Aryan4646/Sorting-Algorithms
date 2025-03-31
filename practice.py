@@ -515,12 +515,18 @@
 
 # Pack three colors into a tuple and unpack them into separate variables.
 
-color = ("red", "green", "blue")
+# color = ("red", "green", "blue")
+#
+# c1, c2, c3 = color
+# print(c1)
+# print(c2)
+# print(c3)
 
-c1, c2, c3 = color
-print(c1)
-print(c2)
-print(c3)
+# Given the tuple (5, 10, 15, 10, 20, 10), count the occurrences of 10 and find its index.
+t1 = (5, 10, 15, 10, 20, 10)
+print(t1.count(10))
+print(t1.index(10))
+
 
 
 
