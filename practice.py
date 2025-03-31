@@ -450,11 +450,15 @@ print("\n")
 li.append(100)
 li.insert(2,50)
 li.pop()
-p = [li.sort()]
-rev = p[-1::]
+
+li.sort()
+print("\nSorted list:")
+print(li)
+
 print("Sorted list is: ")
-print(p, end=" ")
+print(li, end=" ")
 print("\n")
+rev = li[::-1]
 print("Reversed list is: ")
 print(rev, end=" ")
 print("\n")
