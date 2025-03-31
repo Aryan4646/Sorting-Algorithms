@@ -439,28 +439,30 @@
 # Copies the list to a new variable.
 # Prints both lists.
 
-n = int(input("Enter the number of elements you want in the list: "))
-li = []
-for i in range(n):
-    p = int(input(f"The element at {i} index is: "))
-    li.append(p)
-print("Original list: ")
-print(li, end=" ")
-print("\n")
-li.append(100)
-li.insert(2,50)
-li.pop()
+# n = int(input("Enter the number of elements you want in the list: "))
+# li = []
+# for i in range(n):
+#     p = int(input(f"The element at {i} index is: "))
+#     li.append(p)
+# print("Original list: ")
+# print(li, end=" ")
+# print("\n")
+# li.append(100)
+# li.insert(2,50)
+# li.pop()
+#
+# li.sort()
+# print("\nSorted list:")
+# print(li)
+#
+# print("Sorted list is: ")
+# print(li, end=" ")
+# print("\n")
+# rev = li[::-1]
+# print("Reversed list is: ")
+# print(rev, end=" ")
+# print("\n")
 
-li.sort()
-print("\nSorted list:")
-print(li)
 
-print("Sorted list is: ")
-print(li, end=" ")
-print("\n")
-rev = li[::-1]
-print("Reversed list is: ")
-print(rev, end=" ")
-print("\n")
 
 
