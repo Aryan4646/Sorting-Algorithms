@@ -488,13 +488,19 @@
 # Practice Task:
 # 🔹 Create a tuple with numbers from 1 to 5 and print it.
 # 🔹 Try creating a single-element tuple.
+#
+# t1 = (1, 2, 3, 4, 5)    #TUPLE FOR 1 To 5
+# t2 = (1,)  #Tuple for single element
+# print("Tuple for 1 to 5: ")
+# print(t1, end="")
+# print("\nSingle element tuple is : ")
+# print(t2)
 
-t1 = (1, 2, 3, 4, 5)    #TUPLE FOR 1 To 5
-t2 = (1,)  #Tuple for single element
-print("Tuple for 1 to 5: ")
-print(t1, end="")
-print("\nSingle element tuple is : ")
-print(t2)
+# Given a tuple (10, 20, 30, 40, 50), print the first and last elements.
+# 🔹 Extract and print the middle three elements using slicing.
+
+(10, 20, 30, 40, 50)
+
 
 
 
