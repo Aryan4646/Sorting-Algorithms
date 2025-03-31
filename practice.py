@@ -504,14 +504,26 @@
 
 # 🔹 Concatenate two tuples (1, 2, 3) and (4, 5, 6) and print the result.
 # 🔹 Repeat the tuple (7, 8, 9) 3 times and print it.
-t1 = (1, 2, 3)
-t2 = (4, 5, 6)
-t3 = (7, 8, 9)
+# t1 = (1, 2, 3)
+# t2 = (4, 5, 6)
+# t3 = (7, 8, 9)
+#
+# result = t1 + t2
+# print(result)
+#
+# print(t3 * 3)
 
-result = t1 + t2
-print(result)
+# Pack three colors into a tuple and unpack them into separate variables.
 
-print(t3 * 3)
+color = ("red", "green", "blue")
+
+c1, c2, c3 = color
+print(c1)
+print(c2)
+print(c3)
+
+
+
 
 
 
