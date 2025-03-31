@@ -368,10 +368,16 @@
 # print(f"The middle elements of list are : {l[1:(n-1)]}")
 # print(f"The last element of list is: {l[n-1]}")
 
-cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
-git status  # Check for changes
-git add .  # Stage all changes
-git commit -m "Updated code in practice.py"  # Commit with a message
-git push origin main  # Push to GitHub (use 'master' if your branch is master)
 
+# Create a list of mixed data types (int, string, float, bool).
+# Change the third element of a list to "Python" and print the list.
+
+li = [18, "hello", 3.13, True, "Hey", 6, 3.14]
+
+for _ in li:
+    print(_, end=" ")
+
+li[2] = "Python"
+for _ in li:
+    print(_, end=" ")
 
