@@ -553,11 +553,31 @@
 # print(f"Intersection of set 1 and set 2 is : {inter}")
 # # difference # Difference remove all the element that are present in another set
 # diff = s1.difference(s2)
-print(f"Difference of set 1 and set 2 is : {diff}")
-# symmetric difference # in a or b but not in both
-sym = s2.symmetric_difference(s1)
-print(f"Symmetric difference of set2  and set 1 is : {sym}")
+# print(f"Difference of set 1 and set 2 is : {diff}")
+# # symmetric difference # in a or b but not in both
+# sym = s2.symmetric_difference(s1)
+# print(f"Symmetric difference of set2  and set 1 is : {sym}")
 
+# 1️⃣ Creates a dictionary with 5 key-value pairs.
+# 2️⃣ Adds a new key-value pair to it.
+# 3️⃣ Updates one existing key.
+# 4️⃣ Deletes one key.
+# 5️⃣ Prints all keys and values separately.
+
+d = {"name": "Xman", "Age": 26, "Email": "xman@gmail.com", "City": "London"}
+print("Original Dictionary")
+print(d.items())
+print("Added key to the dict: ")
+d["Placed"] = "No"
+print(d.items())
+d["Age"]= 28
+print("Updated dictionary: ")
+print(d)
+print("Dictionary after deletion")
+del d["City"]
+print(d)
+print("All keys:", d.keys())
+print("All values:", d.values())
 
 
 
