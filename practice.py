@@ -657,14 +657,19 @@
 # and values are their frequencies (how many times they appear in the list).
 def d(l):
     d = {}
-
+    for _ in l:
+        if _ not in d:
+            d[_] = 1
+        else:
+            d[_] += 1
+    return d
 n = int(input("Enter how many number you would like to add in list: "))
 l = []
 for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
     l.append(p)
 print(f"The original list is as follows:\n{l}")
-print(f"The dictionary is as follows:\n{d}")
+print(f"The dictionary is as follows:\n{d(l)}")
 
 
 
