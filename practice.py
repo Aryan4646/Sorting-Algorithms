@@ -638,10 +638,11 @@
 # while maintaining the original order.
 def li(l):
     l_new = []
+    x = 0
     for x in range(len(l)):
-        p = li[x]
+        p = l[x]
         if p not in l_new:
-            l_new.append(li[x])
+            l_new.append(l[x])
     return l_new
 
 n = int(input("Enter how many number you would like to add in list: "))
