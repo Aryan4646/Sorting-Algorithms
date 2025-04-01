@@ -636,7 +636,13 @@
 # Write a function that takes a list of numbers as input and
 # returns a new list containing only the unique elements (removing duplicates)
 # while maintaining the original order.
-def
+def li(l):
+    l_new = []
+    for x in range(len(l)):
+        p = li[x]
+        if p not in l_new:
+            l_new.append(li[x])
+    return l_new
 
 n = int(input("Enter how many number you would like to add in list: "))
 l = []
