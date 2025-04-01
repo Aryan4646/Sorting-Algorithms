@@ -675,7 +675,11 @@
 # a new list containing the elements that are common to both lists (without duplicates).
 
 def inter(l1,l2):
-    return l1.
+    l11 = set(l1)
+    l22 = set(l2)
+    l33 = l11.intersection(l22)
+    l44 = list(l33)
+    return l44
 
 n1 = int(input("Enter how many number you would like to add in list: "))
 l1 = []
