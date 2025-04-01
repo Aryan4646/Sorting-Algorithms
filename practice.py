@@ -674,6 +674,9 @@
 # Write a function that takes two lists as input and returns
 # a new list containing the elements that are common to both lists (without duplicates).
 
+def inter(l1,l2):
+    return l1.
+
 n1 = int(input("Enter how many number you would like to add in list: "))
 l1 = []
 for i1 in range(n1):
@@ -686,7 +689,7 @@ for i2 in range(n2):
     p2 = int(input(f"Enter the number at {i2} in the list : "))
     l2.append(p2)
 print(f"The original list l1 is:\n {l1}")
-print(f"The original list l1 is:\n {l1}")
+print(f"The original list l2 is:\n {l2}")
 print(f"The intersection of {l1} & {l2} is :\n {inter(l1,l2)}")
 
 
