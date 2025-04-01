@@ -640,8 +640,7 @@ def li(l):
     l_new = []
     x = 0
     for x in range(len(l)):
-        p = l[x]
-        if p not in l_new:
+        if l[x] not in l_new:
             l_new.append(l[x])
     return l_new
 
