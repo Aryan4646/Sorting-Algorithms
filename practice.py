@@ -664,7 +664,7 @@ for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
     l.append(p)
 print(f"The original list is as follows:\n{l}")
-# print(f"The dictionary is as follows:\n{d}")
+print(f"The dictionary is as follows:\n{d}")
 
 
 
