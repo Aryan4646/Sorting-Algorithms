@@ -636,20 +636,35 @@
 # Write a function that takes a list of numbers as input and
 # returns a new list containing only the unique elements (removing duplicates)
 # while maintaining the original order.
-def li(l):
-    l_new = []
-    x = 0
-    for x in range(len(l)):
-        if l[x] not in l_new:
-            l_new.append(l[x])
-    return l_new
+# def li(l):
+#     l_new = []
+#     x = 0
+#     for x in range(len(l)):
+#         if l[x] not in l_new:
+#             l_new.append(l[x])
+#     return l_new
+#
+# n = int(input("Enter how many number you would like to add in list: "))
+# l = []
+# for i in range(n):
+#     p = int(input(f"Enter the number at {i} in the list : "))
+#     l.append(p)
+# print(f"The original list is as follows:\n{l}")
+# print(f"The unique elements after removing in the list:\n{li(l)}")
 
+# Write a function that takes a list of numbers as input
+# and returns a dictionary where keys are the unique numbers,
+# and values are their frequencies (how many times they appear in the list).
+def d(l):
+    d = {}
+    
 n = int(input("Enter how many number you would like to add in list: "))
 l = []
 for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
     l.append(p)
 print(f"The original list is as follows:\n{l}")
-print(f"The unique elements after removing in the list:\n{li(l)}")
+print(f"The dictionary is as follows:\n{d}")
+
 
 
