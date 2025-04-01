@@ -633,8 +633,17 @@
 #     d[i] = d.get(i, 0)+1
 # print(d)
 
+# Write a function that takes a list of numbers as input and
+# returns a new list containing only the unique elements (removing duplicates)
+# while maintaining the original order.
+def
 
-
-
+n = int(input("Enter how many number you would like to add in list: "))
+l = []
+for i in range(n):
+    p = int(input(f"Enter the number at {i} in the list : "))
+    l.append(p)
+print(f"The original list is as follows:\n{l}")
+print(f"The unique elements after removing in the list:\n{li(l)}")
 
 
