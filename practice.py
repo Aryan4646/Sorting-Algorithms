@@ -674,26 +674,37 @@
 # Write a function that takes two lists as input and returns
 # a new list containing the elements that are common to both lists (without duplicates).
 
-def inter(l1,l2):
-    l11 = set(l1)
-    l22 = set(l2)
-    l33 = l11.intersection(l22)
-    l44 = list(l33)
-    return l44
+# def inter(l1,l2):
+#     l11 = set(l1)
+#     l22 = set(l2)
+#     l33 = l11.intersection(l22)
+#     l44 = list(l33)
+#     return l44
+#
+# n1 = int(input("Enter how many number you would like to add in list: "))
+# l1 = []
+# for i1 in range(n1):
+#     p1 = int(input(f"Enter the number at {i1} in the list : "))
+#     l1.append(p1)
+#     n1 = int(input("Enter how many number you would like to add in list: "))
+# l2 = []
+# n2 = int(input("Enter how many number you would like to add in list: "))
+# for i2 in range(n2):
+#     p2 = int(input(f"Enter the number at {i2} in the list : "))
+#     l2.append(p2)
+# print(f"The original list l1 is:\n {l1}")
+# print(f"The original list l2 is:\n {l2}")
+# print(f"The intersection of {l1} & {l2} is :\n {inter(l1,l2)}")
 
-n1 = int(input("Enter how many number you would like to add in list: "))
-l1 = []
-for i1 in range(n1):
-    p1 = int(input(f"Enter the number at {i1} in the list : "))
-    l1.append(p1)
-    n1 = int(input("Enter how many number you would like to add in list: "))
-l2 = []
-n2 = int(input("Enter how many number you would like to add in list: "))
-for i2 in range(n2):
-    p2 = int(input(f"Enter the number at {i2} in the list : "))
-    l2.append(p2)
-print(f"The original list l1 is:\n {l1}")
-print(f"The original list l2 is:\n {l2}")
-print(f"The intersection of {l1} & {l2} is :\n {inter(l1,l2)}")
+# Write a function that takes a list of numbers as input and
+# returns the second largest number in the list.
+def m(l):
+    
 
+n = int(input("Enter how many number you would like to add in list: "))
+l = []
+for i in range(n):
+    p = int(input(f"Enter the number at {i} in the list : "))
+    l.append(p)
+print(f"The second largest number in {l} is: {m(l)}")
 
