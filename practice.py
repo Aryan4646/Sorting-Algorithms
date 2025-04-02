@@ -811,7 +811,7 @@
 # Example: {1: 'a', 2: 'b', 3: 'c'} → {‘a’: 1, ‘b’: 2, ‘c’: 3}
 # def rev(d):
 #     d_new = {}
-    for key, value in d.items():
+#     for key, value in d.items():
 #         if value in d_new:
 #             d_new[value].append(key)  # Store multiple keys in a list
 #         else:
@@ -825,3 +825,30 @@
 #     d[p] = z
 # print(f"The dictionary is as follows:\n{d}")
 # print(f"The reversed key value-pairs in dictionary are as follows:\n{rev(d)}")
+
+# Find the Union and Intersection of Two Lists Without Duplicates
+# Return both union and intersection using sets.
+def func(l1,l2):
+    s1 = set(l1)
+    s2 = set(l2)
+    uns = s1.union(s2)
+    ins = s1.intersection(s2)
+    return (list(uns), list(ins))
+def lis():
+    n = int(input("Enter the number of element you would like to add in list : "))
+    l =[]
+    for i in range(n):
+        p = int(input(f"Enter the number {i+1} in list: "))
+        l.append(p)
+    return l
+
+print("1st list")
+l1 = lis()
+print("2nd list:")
+l2 = lis()
+un, inter = func(l1,l2)
+print(f"The 1st list is as follows :\n{l1}")
+print(f"The 2nd list is as follows :\n{l2}")
+print(f"The Union of the list is as follows:\n{un} \nThe Intersection of the list is as follows:\n{inter}")
+
+
