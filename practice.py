@@ -743,28 +743,32 @@
 # Write a function that takes two dictionaries as input and merges them into one.
 # If a key exists in both dictionaries, sum their values.
 # If a key exists in only one dictionary, keep it as is.
-def get_dict():
-    d = {}
-    n = int(input("How many key value pairs would you like to add in dictionary: "))
-    for i in range(n):
-        p = input(f"Enter the {i+1} key : ")
-        z = int(input(f"Enter the {i+1} value: "))
-        d[p] = z
-    return d
-def merge_dict(d1,d2):
-    merged = d1.copy()
-    for key, value in d2.items():
-        if key in merged:
-            merged[key] += value
-        else:
-            merged[key] = value
-    return merged
+# def get_dict():
+#     d = {}
+#     n = int(input("How many key value pairs would you like to add in dictionary: "))
+#     for i in range(n):
+#         p = input(f"Enter the {i+1} key : ")
+#         z = int(input(f"Enter the {i+1} value: "))
+#         d[p] = z
+#     return d
+# def merge_dict(d1,d2):
+#     merged = d1.copy()
+#     for key, value in d2.items():
+#         if key in merged:
+#             merged[key] += value
+#         else:
+#             merged[key] = value
+#     return merged
+#
+# print("Enter the 1st dictionary:")
+# d1 = get_dict()
+# print("Enter the 2nd dictionary:")
+# d2 = get_dict()
+# print(f"First dictionary is : {d1}")
+# print(f"Second dictionary is: {d2}")
+# print(f"The merged dictionary is : {merge_dict(d1,d2)}")
 
-print("Enter the 1st dictionary:")
-d1 = get_dict()
-print("Enter the 2nd dictionary:")
-d2 = get_dict()
-print(f"First dictionary is : {d1}")
-print(f"Second dictionary is: {d2}")
-print(f"The merged dictionary is : {merge_dict(d1,d2)}")
+# Find the Missing Number in a List
+# Given a list of n-1 unique numbers from 1 to n, find the missing number.
+# Example: [1, 2, 4, 5] → Output: 3
 
