@@ -929,7 +929,13 @@
 
 # Find GCD (Greatest Common Divisor) Using Recursion
 # Example: GCD(48, 18) = 6
-
+def gcd(a,b):
+    gd = 1
+    x = a if a > b else b
+    for i in range(1, x+1):
+        if a % i == 0 and b % i == 0:
+            gd = i
+    return gd
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
