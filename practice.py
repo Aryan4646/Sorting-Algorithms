@@ -905,15 +905,19 @@
 # Find Factorial Using Recursion
 # Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
 
-def fac(n):
-    if n == 0 or n == 1 :
-        return 1
-    else:
-        return n*fac(n-1)
+# def fac(n):
+#     if n == 0 or n == 1 :
+#         return 1
+#     else:
+#         return n*fac(n-1)
+#
+#
+# n = int(input("Enter the number whose factorial you would like to calculate: "))
+# print(f"The factorial of {n} is : {fac(n)}")
 
+# Sum of Digits Using Recursion
+# Example: 123 → 1 + 2 + 3 = 6
 
-n = int(input("Enter the number whose factorial you would like to calculate: "))
-print(f"The factorial of {n} is : {fac(n)}")
 
 
 
