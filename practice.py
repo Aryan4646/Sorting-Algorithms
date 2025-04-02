@@ -694,6 +694,6 @@ for i2 in range(n2):
     l2.append(p2)
 print(f"The original list l1 is:\n {l1}")
 print(f"The original list l2 is:\n {l2}")
-print(f"The intersection of {l1} & {l2} is :\n {inter(l1,l2)}")
+# print(f"The intersection of {l1} & {l2} is :\n {inter(l1,l2)}")
 
 
