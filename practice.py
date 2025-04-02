@@ -771,16 +771,29 @@
 # Find the Missing Number in a List
 # Given a list of n-1 unique numbers from 1 to n, find the missing number.
 # Example: [1, 2, 4, 5] → Output: 3
-def mis(n,l):
-    s = 0
-    for i in l:
-        s += i
-    e_sum = (n*(n+1))/2
-    return e_sum - s
-n = int(input("Enter upto how many number you would like to add in list: "))
-l = []
-for i in range(n-1):
-    p = int(input(f"Enter the number in the list : "))
-    l.append(p)
-print(f"The list is as follows: {l}")
-print(f"The missing element in the list is :{mis(n,l)} ")
+# def mis(n,l):
+#     s = 0
+#     for i in l:
+#         s += i
+#     e_sum = (n*(n+1))/2
+#     return e_sum - s
+# n = int(input("Enter upto how many number you would like to add in list: "))
+# l = []
+# for i in range(n-1):
+#     p = int(input(f"Enter the number in the list : "))
+#     l.append(p)
+# print(f"The list is as follows: {l}")
+# print(f"The missing element in the list is :{mis(n,l)} ")
+
+# Find the Key with the Maximum Value
+# Given a dictionary {‘a’: 10, ‘b’: 25, ‘c’: 15}, return the key with the highest value.
+# Output: 'b'
+
+
+d = {}
+n = int(input("How many key value pairs would you like to add in dictionary: "))
+for i in range(n):
+    p = input(f"Enter the {i+1} key : ")
+    z = int(input(f"Enter the {i+1} value: "))
+    d[p] = z
+
