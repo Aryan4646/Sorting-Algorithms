@@ -756,7 +756,8 @@ def get_dict():
 def merge_dict(d1,d2):
     if d1 not in d2:
         for key,value in d1.items():
-        
+            key = 
+
 print("Enter the 1st dictionary:")
 d1 = get_dict()
 print("Enter the 2nd dictionary:")
