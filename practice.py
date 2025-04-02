@@ -740,3 +740,10 @@
 # mx, mf = m(l)
 # print(f"The most frequent number in the list {l} is:{mx} with appearing {mf} times ")
 
+# Write a function that takes two dictionaries as input and merges them into one.
+# If a key exists in both dictionaries, sum their values.
+# If a key exists in only one dictionary, keep it as is.
+
+d1 = {}
+d2 = {}
+
