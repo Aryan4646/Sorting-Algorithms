@@ -717,26 +717,26 @@
 
 # Write a function that takes a list of numbers as input
 # and returns the element that appears the most times in the list.
-def m(l):
-    d = {}
-    max_freq = 0
-    most_freq = 0
-    for x in l:
-        if x not in d:
-            d[x] = 1
-        else:
-            d[x] += 1
-    for key, value in d.items():
-        if value > max_freq:
-            max_freq = value
-            most_freq = key
-    return most_freq, max_freq
-
-n = int(input("Enter how many number you would like to add in list: "))
-l = []
-for i in range(n):
-    p = int(input(f"Enter the number at {i} in the list : "))
-    l.append(p)
-mx, mf = m(l)
-print(f"The most frequent number in the list {l} is:{mx} with appearing {mf} times ")
+# def m(l):
+#     d = {}
+#     max_freq = 0
+#     most_freq = 0
+#     for x in l:
+#         if x not in d:
+#             d[x] = 1
+#         else:
+#             d[x] += 1
+#     for key, value in d.items():
+#         if value > max_freq:
+#             max_freq = value
+#             most_freq = key
+#     return most_freq, max_freq
+#
+# n = int(input("Enter how many number you would like to add in list: "))
+# l = []
+# for i in range(n):
+#     p = int(input(f"Enter the number at {i} in the list : "))
+#     l.append(p)
+# mx, mf = m(l)
+# print(f"The most frequent number in the list {l} is:{mx} with appearing {mf} times ")
 
