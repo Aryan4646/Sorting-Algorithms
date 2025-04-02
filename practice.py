@@ -699,8 +699,13 @@
 # Write a function that takes a list of numbers as input and
 # returns the second largest number in the list.
 def m(l):
-    
-
+    large1 = l[0]
+    for x in l:
+        if x > large1:
+            large2 = large1
+            large1 = x
+    return large2
+        
 n = int(input("Enter how many number you would like to add in list: "))
 l = []
 for i in range(n):
