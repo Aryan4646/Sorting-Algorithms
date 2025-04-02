@@ -716,5 +716,6 @@
 # print(f"The second largest number in {l} is: {m(l)}")
 
 
-Write a function that takes a list of numbers as input
-and returns the element that appears the most times in the list.
+# Write a function that takes a list of numbers as input
+# and returns the element that appears the most times in the list.
+
