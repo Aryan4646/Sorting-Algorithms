@@ -700,10 +700,9 @@
 # returns the second largest number in the list.
 def m(l):
     large1 = l[0]
+    large2 = "No second largest number exist"
     for x in l:
-        if x == large1:
-            large2 = "No second largest number exist"
-        elif x > large1:
+        if x > large1:
             large2 = large1
             large1 = x
 
@@ -714,5 +713,5 @@ l = []
 for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
     l.append(p)
-print(f"The second largest number in {l} is: {m(l)}")
+# print(f"The second largest number in {l} is: {m(l)}")
 
