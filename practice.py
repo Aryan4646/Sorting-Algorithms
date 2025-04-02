@@ -817,7 +817,7 @@ def rev(d):
         else:
             d_new[value] = [key]  # Initialize list with first key
     return d_new
-n = int(input("How many key value pairs would you like to add in dictionary: "))
+# n = int(input("How many key value pairs would you like to add in dictionary: "))
 d = {}
 for i in range(n):
     p = input(f"Enter the {i+1} key : ")
