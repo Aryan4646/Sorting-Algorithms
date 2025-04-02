@@ -701,12 +701,15 @@
 def m(l):
     large1 = l[0]
     for x in l:
-        if x > large1:
+        if x == large1:
+            large2 = "No second largest number exist"
+        elif x > large1:
             large2 = large1
             large1 = x
+
     return large2
 
-# n = int(input("Enter how many number you would like to add in list: "))
+n = int(input("Enter how many number you would like to add in list: "))
 l = []
 for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
