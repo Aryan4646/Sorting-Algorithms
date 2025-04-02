@@ -756,7 +756,7 @@ def get_dict():
 print("Enter the 1st dictionary:")
 d1 = get_dict()
 print("Enter the 2nd dictionary:")
-d2 = get_dict()
-print(f"First dictionary is : {d1}")
-print(f"Second dictionary is: {d2}")
+# d2 = get_dict()
+# print(f"First dictionary is : {d1}")
+# print(f"Second dictionary is: {d2}")
 
