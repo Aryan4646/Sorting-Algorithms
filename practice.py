@@ -812,10 +812,10 @@
 def rev(d):
     d_new = {}
     for key, value in d.items():
-        p = value
-        value = key
-        key = p
-        d_new[key] = value
+        if value in d_new:
+            d_new[value].append(key)  # Store multiple keys in a list
+        else:
+            d_new[value] = [key]  # Initialize list with first key
     return d_new
 n = int(input("How many key value pairs would you like to add in dictionary: "))
 d = {}
