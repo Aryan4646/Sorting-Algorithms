@@ -739,3 +739,9 @@ for i in range(n):
     l.append(p)
 mx, mf = m(l)
 print(f"The most frequent number in the list {l} is:{mx} with appearing {mf} times ")
+cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
+git status  # Check for changes
+git add .  # Stage all changes
+git commit -m "Updated code in practice.py"  # Commit with a message
+git push origin main  # Push to GitHub (use 'master'
+
