@@ -753,10 +753,15 @@ def get_dict():
             d[p] = z
             break
     return d
+def merge_dict(d1,d2):
+    if d1 not in d2:
+        for key,value in d1.items():
+        
 print("Enter the 1st dictionary:")
 d1 = get_dict()
 print("Enter the 2nd dictionary:")
-# d2 = get_dict()
-# print(f"First dictionary is : {d1}")
-# print(f"Second dictionary is: {d2}")
+d2 = get_dict()
+print(f"First dictionary is : {d1}")
+print(f"Second dictionary is: {d2}")
+print(f"The merged dictionary is : {merge_dict(d1,d2)}")
 
