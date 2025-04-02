@@ -715,7 +715,16 @@
 #     l.append(p)
 # print(f"The second largest number in {l} is: {m(l)}")
 
-
 # Write a function that takes a list of numbers as input
 # and returns the element that appears the most times in the list.
+def m(l):
+    for x in l:
+        if x > l:
+            print(x)
 
+n = int(input("Enter how many number you would like to add in list: "))
+l = []
+for i in range(n):
+    p = int(input(f"Enter the number at {i} in the list : "))
+    l.append(p)
+print(f"The most frequent number in the list {l} is:{m(l)} ")
