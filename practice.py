@@ -743,7 +743,20 @@
 # Write a function that takes two dictionaries as input and merges them into one.
 # If a key exists in both dictionaries, sum their values.
 # If a key exists in only one dictionary, keep it as is.
-
-d1 = {}
-d2 = {}
+def get_dict():
+    d = {}
+    n = int(input("How many key value pairs would you like to add in dictionary: "))
+    for i in range(n):
+        while i != n:
+            p = input(f"Enter the {i+1} key : ")
+            z = int(input(f"Enter the {i+1} value: "))
+            d[p] = z
+            break
+    return d
+print("Enter the 1st dictionary:")
+d1 = get_dict()
+print("Enter the 2nd dictionary:")
+d2 = get_dict()
+print(f"First dictionary is : {d1}")
+print(f"Second dictionary is: {d2}")
 
