@@ -713,5 +713,11 @@ l = []
 for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
     l.append(p)
-# print(f"The second largest number in {l} is: {m(l)}")
+print(f"The second largest number in {l} is: {m(l)}")
+
+cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
+git status  # Check for changes
+git add .  # Stage all changes
+git commit -m "Updated code in practice.py"  # Commit with a message
+git push origin main  # Push to GitHub (use 'master'
 
