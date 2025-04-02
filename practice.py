@@ -718,9 +718,13 @@
 # Write a function that takes a list of numbers as input
 # and returns the element that appears the most times in the list.
 def m(l):
+    d = {}
     for x in l:
-        if x > l:
-            print(x)
+        if x not in d:
+            d[x] = 1
+        else:
+            d[x] += 1
+        
 
 n = int(input("Enter how many number you would like to add in list: "))
 l = []
