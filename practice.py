@@ -698,26 +698,23 @@
 
 # Write a function that takes a list of numbers as input and
 # returns the second largest number in the list.
-def m(l):
-    large1 = l[0]
-    large2 = "No second largest number exist"
-    for x in l:
-        if x > large1:
-            large2 = large1
-            large1 = x
+# def m(l):
+#     large1 = l[0]
+#     large2 = "No second largest number exist"
+#     for x in l:
+#         if x > large1:
+#             large2 = large1
+#             large1 = x
+#
+#     return large2
+#
+# n = int(input("Enter how many number you would like to add in list: "))
+# l = []
+# for i in range(n):
+#     p = int(input(f"Enter the number at {i} in the list : "))
+#     l.append(p)
+# print(f"The second largest number in {l} is: {m(l)}")
 
-    return large2
 
-n = int(input("Enter how many number you would like to add in list: "))
-l = []
-for i in range(n):
-    p = int(input(f"Enter the number at {i} in the list : "))
-    l.append(p)
-print(f"The second largest number in {l} is: {m(l)}")
-
-cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project
-git status  # Check for changes
-git add .  # Stage all changes
-git commit -m "Updated code in practice.py"  # Commit with a message
-git push origin main  # Push to GitHub (use 'master'
-
+Write a function that takes a list of numbers as input
+and returns the element that appears the most times in the list.
