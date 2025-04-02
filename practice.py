@@ -788,7 +788,8 @@
 # Find the Key with the Maximum Value
 # Given a dictionary {‘a’: 10, ‘b’: 25, ‘c’: 15}, return the key with the highest value.
 # Output: 'b'
-
+def maxim(d):
+    maxed = d[]
 
 d = {}
 n = int(input("How many key value pairs would you like to add in dictionary: "))
@@ -796,4 +797,6 @@ for i in range(n):
     p = input(f"Enter the {i+1} key : ")
     z = int(input(f"Enter the {i+1} value: "))
     d[p] = z
-
+print(f"The dictionary is as follows:\n{d}")
+k, v = maxim(d)
+print(f"The maximum element key is: {k}\nThe maximum value is: {v}")
