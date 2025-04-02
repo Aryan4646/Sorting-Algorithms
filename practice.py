@@ -811,7 +811,7 @@
 # Example: {1: 'a', 2: 'b', 3: 'c'} → {‘a’: 1, ‘b’: 2, ‘c’: 3}
 # def rev(d):
 #     d_new = {}
-#     for key, value in d.items():
+    for key, value in d.items():
 #         if value in d_new:
 #             d_new[value].append(key)  # Store multiple keys in a list
 #         else:
