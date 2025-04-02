@@ -747,16 +747,18 @@ def get_dict():
     d = {}
     n = int(input("How many key value pairs would you like to add in dictionary: "))
     for i in range(n):
-        while i != n:
-            p = input(f"Enter the {i+1} key : ")
-            z = int(input(f"Enter the {i+1} value: "))
-            d[p] = z
-            break
+        p = input(f"Enter the {i+1} key : ")
+        z = int(input(f"Enter the {i+1} value: "))
+        d[p] = z
     return d
 def merge_dict(d1,d2):
-    if d1 not in d2:
-        for key,value in d1.items():
-            key = 
+    merged = d1.copy()
+    for key, value in d2.items():
+        if key in merged:
+            merged[key] += value
+        else:
+            merged[key] = value
+    return merged
 
 print("Enter the 1st dictionary:")
 d1 = get_dict()
