@@ -932,20 +932,8 @@
 
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-gcd = 1
-if num1 > num2:
-    for i in range(1,num1):
-        if num1 % i == 0 and num2 % i == 0:
-            gcd *= i
-            num1 //= i
-            num2 //= i
-else:
-    for i in range(1,num2):
-        if num1 % i == 0 and num2 % i == 0:
-            gcd *= i
-            num1 //= i
-            num2 //= i
-print(gcd)
+
+print(f"The greatest common divisor of {num1} and {num2} is : {gcd(num1,num2)}")
 
 
 
