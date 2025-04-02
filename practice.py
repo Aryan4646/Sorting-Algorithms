@@ -884,23 +884,36 @@
 # else:
 #     print(f"String {s} is not palindrome")
 
-# Find the Most Frequent Character in a String
-# Example: "hello" → Output: 'l'
-s = input("Enter the string: ")
-d = {}
+# # Find the Most Frequent Character in a String
+# # Example: "hello" → Output: 'l'
+# s = input("Enter the string: ")
+# d = {}
+#
+# for char in s:
+#     if char not in d:
+#         d[char] = 1
+#     else:
+#         d[char] += 1
+# maxed = 0
+# max_key = None
+# for key,value in d.items():
+#     if value > maxed:
+#         maxed = value
+#         max_key = key
+# print(f"The maximum frequent character is {max_key} with frequency of {maxed}")
 
-for char in s:
-    if char not in d:
-        d[char] = 1
+# Find Factorial Using Recursion
+# Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
+
+def fac(n,num=1):
+    if n == 1:
+        return 1
     else:
-        d[char] += 1
-maxed = 0
-max_key = None
-for key,value in d.items():
-    if value > maxed:
-        maxed = value
-        max_key = key
-print(f"The maximum frequent character is {max_key} with frequency of {maxed}")
+        return n*fac(n-1)
+
+
+n = int(input("Enter the number whose factorial you would like to calculate: "))
+print(f"The factorial of {n} is : {fac(n)}")
 
 
 
