@@ -873,16 +873,34 @@
 # print(f"The 2nd set is as follows :\n{s2}")
 # print(f"The difference between set 1 and set 2 is:\n {diff(s1,s2)}")
 
-# Check If a String is a Palindrome
-# Example: 'racecar' → Output: True
+# # Check If a String is a Palindrome
+# # Example: 'racecar' → Output: True
+#
+# s = input("Enter the string: ")
+# s1 = s[::-1]
+#
+# if s == s1:
+#     print(f"String {s} is palindrome")
+# else:
+#     print(f"String {s} is not palindrome")
 
+# Find the Most Frequent Character in a String
+# Example: "hello" → Output: 'l'
 s = input("Enter the string: ")
-s1 = s[::-1]
+d = {}
 
-if s == s1:
-    print(f"String {s} is palindrome")
-else:
-    print(f"String {s} is not palindrome")
+for char in s:
+    if char not in d:
+        d[char] = 1
+    else:
+        d[char] += 1
+maxed = 0
+max_key = None
+for key,value in d.items():
+    if value > maxed:
+        maxed = value
+        max_key = key
+print(f"The maximum frequent character is {max_key} with frequency of {maxed}")
 
 
 
