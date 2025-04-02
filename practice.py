@@ -873,6 +873,10 @@
 # print(f"The 2nd set is as follows :\n{s2}")
 # print(f"The difference between set 1 and set 2 is:\n {diff(s1,s2)}")
 
+# Check If a String is a Palindrome
+# Example: 'racecar' → Output: True
+
+
 
 
 
