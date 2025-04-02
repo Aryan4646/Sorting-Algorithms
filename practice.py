@@ -806,4 +806,22 @@
 # k, v = maxim(d)
 # print(f"The maximum element key is: {k}\nThe maximum value is: {v}")
 
-
+# Invert a Dictionary
+# Swap keys and values in a dictionary.
+# Example: {1: 'a', 2: 'b', 3: 'c'} → {‘a’: 1, ‘b’: 2, ‘c’: 3}
+def rev(d):
+    d_new = {}
+    for key, value in d.items():
+        p = value
+        value = key
+        key = p
+        d_new[key] = value
+    return d_new
+n = int(input("How many key value pairs would you like to add in dictionary: "))
+d = {}
+for i in range(n):
+    p = input(f"Enter the {i+1} key : ")
+    z = int(input(f"Enter the {i+1} value: "))
+    d[p] = z
+print(f"The dictionary is as follows:\n{d}")
+print(f"The reversed key value-pairs in dictionary are as follows:\n{rev(d)}")
