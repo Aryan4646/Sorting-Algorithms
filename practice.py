@@ -705,8 +705,8 @@ def m(l):
             large2 = large1
             large1 = x
     return large2
-        
-n = int(input("Enter how many number you would like to add in list: "))
+
+# n = int(input("Enter how many number you would like to add in list: "))
 l = []
 for i in range(n):
     p = int(input(f"Enter the number at {i} in the list : "))
