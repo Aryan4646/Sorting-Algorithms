@@ -905,8 +905,8 @@
 # Find Factorial Using Recursion
 # Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
 
-def fac(n,num=1):
-    if n == 1:
+def fac(n):
+    if n == 0 or n == 1 :
         return 1
     else:
         return n*fac(n-1)
