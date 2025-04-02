@@ -828,27 +828,51 @@
 
 # Find the Union and Intersection of Two Lists Without Duplicates
 # Return both union and intersection using sets.
-def func(l1,l2):
-    s1 = set(l1)
-    s2 = set(l2)
-    uns = s1.union(s2)
-    ins = s1.intersection(s2)
-    return (list(uns), list(ins))
-def lis():
-    n = int(input("Enter the number of element you would like to add in list : "))
-    l =[]
-    for i in range(n):
-        p = int(input(f"Enter the number {i+1} in list: "))
-        l.append(p)
-    return l
+# def func(l1,l2):
+#     s1 = set(l1)
+#     s2 = set(l2)
+#     uns = s1.union(s2)
+#     ins = s1.intersection(s2)
+#     return (list(uns), list(ins))
+# def lis():
+#     n = int(input("Enter the number of element you would like to add in list : "))
+#     l =[]
+#     for i in range(n):
+#         p = int(input(f"Enter the number {i+1} in list: "))
+#         l.append(p)
+#     return l
+#
+# print("1st list")
+# l1 = lis()
+# print("2nd list:")
+# l2 = lis()
+# un, inter = func(l1,l2)
+# print(f"The 1st list is as follows :\n{l1}")
+# print(f"The 2nd list is as follows :\n{l2}")
+# print(f"The Union of the list is as follows:\n{un} \nThe Intersection of the list is as follows:\n{inter}")
 
-print("1st list")
-l1 = lis()
-print("2nd list:")
-l2 = lis()
-un, inter = func(l1,l2)
-print(f"The 1st list is as follows :\n{l1}")
-print(f"The 2nd list is as follows :\n{l2}")
-print(f"The Union of the list is as follows:\n{un} \nThe Intersection of the list is as follows:\n{inter}")
+# Find the Difference Between Two Sets
+# Given two sets {1, 2, 3, 4} and {3, 4, 5, 6}, return elements in the first set but not in the second.
+# Output: {1, 2}
+
+# def diff(s1,s2):
+#     return s1.difference(s2)
+# def lis(count):
+#     n = int(input(f"Enter the element you would like to add in set{count} : "))
+#     l =[]
+#     for i in range(n):
+#         p = int(input(f"Enter the number {i+1} in list: "))
+#         l.append(p)
+#     return l
+#
+# count = 1
+# s1 = set(lis(count))
+# count += 1
+# s2 = set(lis(count))
+# print(f"The 1st set is as follows :\n{s1}")
+# print(f"The 2nd set is as follows :\n{s2}")
+# print(f"The difference between set 1 and set 2 is:\n {diff(s1,s2)}")
+
+
 
 
