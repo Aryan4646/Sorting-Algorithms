@@ -876,7 +876,13 @@
 # Check If a String is a Palindrome
 # Example: 'racecar' → Output: True
 
+s = input("Enter the string: ")
+s1 = s[::-1]
 
+if s == s1:
+    print(f"String {s} is palindrome")
+else:
+    print(f"String {s} is not palindrome")
 
 
 
