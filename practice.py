@@ -917,7 +917,18 @@
 
 # Sum of Digits Using Recursion
 # Example: 123 → 1 + 2 + 3 = 6
+# def s(n,num=0):
+#     if n == 0:
+#         return num
+#     else:
+#         p = n % 10
+#         return s(n // 10, num + p)
+#
+# n = int(input("Enter the number: "))
+# print(f"The sum of digits of {n} is {s(n)}")
 
+# Find GCD (Greatest Common Divisor) Using Recursion
+# Example: GCD(48, 18) = 6
 
 
 
