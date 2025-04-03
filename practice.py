@@ -963,15 +963,12 @@
 # Do not use built-in functions like split() and join().
 
 s = input("Enter the input string: ")
-
-l = [i for i in s if i != " "]
-b = []
+b = 0
 for i in s:
     if i == " ":
-        continue
-    else:
-        l.append(i)
-print(l)
+       b += 1
+for x in range(b):
+    l = 
 
 
 
