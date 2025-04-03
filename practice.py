@@ -962,6 +962,16 @@
 # Words are separated by one or more spaces
 # Do not use built-in functions like split() and join().
 
+s = input("Enter the input string: ")
+
+l = [i for i in s if i != " "]
+b = []
+for i in s:
+    if i == " ":
+        continue
+    else:
+        l.append(i)
+print(l)
 
 
 
