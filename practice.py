@@ -954,6 +954,16 @@
 #
 # print(f"The greatest common divisor of {num1} and {num2} is : {gcd(num1,num2)}")
 
+# Reverse Words in a String
+# Write a function that takes a string as input and reverses the order of words.
+# Example:
+# Input: "Python is awesome"
+# Output: "awesome is Python"
+# Words are separated by one or more spaces
+# Do not use built-in functions like split() and join().
+
+
+
 
 
 
