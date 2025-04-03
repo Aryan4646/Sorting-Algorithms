@@ -963,12 +963,23 @@
 # Do not use built-in functions like split() and join().
 
 s = input("Enter the input string: ")
-b = 0
+l = []
+temp_list = []
 for i in s:
     if i == " ":
-       b += 1
-for x in range(b):
-    l = 
+        if temp_list:
+            l.append(temp_list)
+            temp_list = []
+    else:
+        temp_list.append(i)
+if temp_list:
+    l.append(temp_list)
+print(l)
+new_l = l[::-1]
+
+new_word = ""
+
+
 
 
 
