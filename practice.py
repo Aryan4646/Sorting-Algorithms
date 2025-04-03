@@ -979,6 +979,12 @@ new_l = l[::-1]
 
 new_word = ""
 
+for word in new_l:
+    if new_word:
+        new_word += " "
+    for char in word:
+        new_word += char
+print(new_word)
 
 
 
