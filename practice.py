@@ -767,7 +767,7 @@
 # print(f"First dictionary is : {d1}")
 # print(f"Second dictionary is: {d2}")
 # print(f"The merged dictionary is : {merge_dict(d1,d2)}")
-
+#
 # Find the Missing Number in a List
 # Given a list of n-1 unique numbers from 1 to n, find the missing number.
 # Example: [1, 2, 4, 5] → Output: 3
@@ -784,7 +784,7 @@
 #     l.append(p)
 # print(f"The list is as follows: {l}")
 # print(f"The missing element in the list is :{mis(n,l)} ")
-
+#
 # Find the Key with the Maximum Value
 # Given a dictionary {‘a’: 10, ‘b’: 25, ‘c’: 15}, return the key with the highest value.
 # Output: 'b'
@@ -805,7 +805,7 @@
 # print(f"The dictionary is as follows:\n{d}")
 # k, v = maxim(d)
 # print(f"The maximum element key is: {k}\nThe maximum value is: {v}")
-
+#
 # Invert a Dictionary
 # Swap keys and values in a dictionary.
 # Example: {1: 'a', 2: 'b', 3: 'c'} → {‘a’: 1, ‘b’: 2, ‘c’: 3}
@@ -825,7 +825,7 @@
 #     d[p] = z
 # print(f"The dictionary is as follows:\n{d}")
 # print(f"The reversed key value-pairs in dictionary are as follows:\n{rev(d)}")
-
+#
 # Find the Union and Intersection of Two Lists Without Duplicates
 # Return both union and intersection using sets.
 # def func(l1,l2):
@@ -850,11 +850,11 @@
 # print(f"The 1st list is as follows :\n{l1}")
 # print(f"The 2nd list is as follows :\n{l2}")
 # print(f"The Union of the list is as follows:\n{un} \nThe Intersection of the list is as follows:\n{inter}")
-
+#
 # Find the Difference Between Two Sets
 # Given two sets {1, 2, 3, 4} and {3, 4, 5, 6}, return elements in the first set but not in the second.
 # Output: {1, 2}
-
+#
 # def diff(s1,s2):
 #     return s1.difference(s2)
 # def lis(count):
@@ -872,7 +872,7 @@
 # print(f"The 1st set is as follows :\n{s1}")
 # print(f"The 2nd set is as follows :\n{s2}")
 # print(f"The difference between set 1 and set 2 is:\n {diff(s1,s2)}")
-
+#
 # # Check If a String is a Palindrome
 # # Example: 'racecar' → Output: True
 #
@@ -883,7 +883,7 @@
 #     print(f"String {s} is palindrome")
 # else:
 #     print(f"String {s} is not palindrome")
-
+#
 # # Find the Most Frequent Character in a String
 # # Example: "hello" → Output: 'l'
 # s = input("Enter the string: ")
@@ -901,10 +901,10 @@
 #         maxed = value
 #         max_key = key
 # print(f"The maximum frequent character is {max_key} with frequency of {maxed}")
-
+#
 # Find Factorial Using Recursion
 # Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
-
+#
 # def fac(n):
 #     if n == 0 or n == 1 :
 #         return 1
@@ -914,7 +914,7 @@
 #
 # n = int(input("Enter the number whose factorial you would like to calculate: "))
 # print(f"The factorial of {n} is : {fac(n)}")
-
+#
 # Sum of Digits Using Recursion
 # Example: 123 → 1 + 2 + 3 = 6
 # def s(n,num=0):
@@ -926,20 +926,33 @@
 #
 # n = int(input("Enter the number: "))
 # print(f"The sum of digits of {n} is {s(n)}")
-
+#
 # Find GCD (Greatest Common Divisor) Using Recursion
 # Example: GCD(48, 18) = 6
-def gcd(a,b):
-    gd = 1
-    x = a if a > b else b
-    for i in range(1, x+1):
-        if a % i == 0 and b % i == 0:
-            gd = i
-    return gd
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
+# def gcd(a,b):
+#     if b == 0:
+#         return a
+#     else:
+#         return gcd(b, a % b)
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+#
+# print(f"The greatest common divisor of {num1} and {num2} is : {gcd(num1,num2)}")
+#
 
-print(f"The greatest common divisor of {num1} and {num2} is : {gcd(num1,num2)}")
+
+# Using loop
+# def gcd(a,b):
+#     gd = 1
+#     x = a if a > b else b
+#     for i in range(1, x+1):
+#         if a % i == 0 and b % i == 0:
+#             gd = i
+#     return gd
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+#
+# print(f"The greatest common divisor of {num1} and {num2} is : {gcd(num1,num2)}")
 
 
 
