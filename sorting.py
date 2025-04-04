@@ -16,8 +16,12 @@
 # print(f"Sorted list is: {bubble_sort(l)}")
 
 # Selection Sort
-def sel_sort(l):
+def minm(l,i):
     
+def sel_sort(l):
+    n = len(l)
+    for i in range(n-1):
+        ele,ind = minm(l,i)
 
 n = int(input("Enter the number of elements you would like to add in list: "))
 l = []
@@ -26,3 +30,10 @@ for i in range(n):
     l.append(p)
 print(f"Original List is : {l}")
 print(f"Sorted List is: {sel_sort(l)}")
+
+
+# cd /c/Users/DELL/PycharmProjects/Solo_Leveling  # Navigate to your project directory
+# touch sorting.py  # Create a new Python file
+# git add sorting.py  # Stage the new file
+# git commit -m "Added sorting.py"  # Commit with a message
+# git push origin main  # Push to GitHub (use 'master' if your branch is master)
