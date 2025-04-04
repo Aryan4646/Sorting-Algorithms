@@ -16,4 +16,13 @@
 # print(f"Sorted list is: {bubble_sort(l)}")
 
 # Selection Sort
+def sel_sort(l):
+    
 
+n = int(input("Enter the number of elements you would like to add in list: "))
+l = []
+for i in range(n):
+    p = int(input(f"Enter the element at {i} index in the list: "))
+    l.append(p)
+print(f"Original List is : {l}")
+print(f"Sorted List is: {sel_sort(l)}")
