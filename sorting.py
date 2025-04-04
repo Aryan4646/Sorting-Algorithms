@@ -17,7 +17,14 @@
 
 # Selection Sort
 def sel_sort(l):
-
+    n = len(l)
+    for i in range(n-1):
+        min_idx = i
+        for j in range(i+1, n):
+            if l[j] < l[min_idx]:
+                min_idx = j
+        l[i], l[min_idx] = l[min_idx], l[i]
+    return l
 n = int(input("Enter the number of elements you would like to add in list: "))
 l = []
 for i in range(n):
