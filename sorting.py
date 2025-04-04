@@ -12,4 +12,4 @@ for i in range(n):
     p = int(input(f"Enter the element at {i} index in the list: "))
     l.append(p)
 print(f"Original list is : {l}")
-# print(f"Sorted list is: {bubble_sort(l)}")
+print(f"Sorted list is: {bubble_sort(l)}")
