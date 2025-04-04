@@ -16,13 +16,21 @@
 # print(f"Sorted list is: {bubble_sort(l)}")
 
 # Selection Sort
-def minm(l,i):
+def minm(l_t):
+    min = l_t[0]
+    for x in l_t:
+        if min > x:
+            min = x
+    return min
     
 def sel_sort(l):
+    l_t = l.copy()
     n = len(l)
     for i in range(n-1):
-        ele,ind = minm(l,i)
-
+        ele = minm(l_t)
+        l[i] = ele
+        l_t.remove(l[i])
+    return l
 n = int(input("Enter the number of elements you would like to add in list: "))
 l = []
 for i in range(n):
