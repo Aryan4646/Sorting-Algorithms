@@ -962,29 +962,30 @@
 # Words are separated by one or more spaces
 # Do not use built-in functions like split() and join().
 
-s = input("Enter the input string: ")
-l = []
-temp_list = []
-for i in s:
-    if i == " ":
-        if temp_list:
-            l.append(temp_list)
-            temp_list = []
-    else:
-        temp_list.append(i)
-if temp_list:
-    l.append(temp_list)
-print(l)
-new_l = l[::-1]
+# s = input("Enter the input string: ")
+# l = []
+# temp_list = []
+# for i in s:
+#     if i == " ":
+#         if temp_list:
+#             l.append(temp_list)
+#             temp_list = []
+#     else:
+#         temp_list.append(i)
+# if temp_list:
+#     l.append(temp_list)
+# print(l)
+# new_l = l[::-1]
+#
+# new_word = ""
+#
+# for word in new_l:
+#     if new_word:
+#         new_word += " "
+#     for char in word:
+#         new_word += char
+# print(new_word)
 
-new_word = ""
-
-for word in new_l:
-    if new_word:
-        new_word += " "
-    for char in word:
-        new_word += char
-print(new_word)
 
 
 
