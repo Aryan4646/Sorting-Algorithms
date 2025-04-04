@@ -1,7 +1,16 @@
 
 # Bubble sort
 def bubble_sort(l):
-    for x in range():
+    for x in range(len(l)-1):
+        if l[x] > l[x+1]:
+            p = l[x]
+            l[x] = l[x+1]
+            l[x+1] = p
+        elif l[x] < l[x+1]:
+            x += 1
+            p = l[x]
+            l[x] = l[x+1]
+            l[x+1] = p
 
 
 
